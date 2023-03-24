@@ -35,6 +35,7 @@ def merge_files(filex,filey):
         x = x_df.iloc[i:i+1].reset_index(drop=True)
         z = pd.concat([x,y],axis=1).reset_index(drop=True)
         combined_df = combined_df.append(z, ignore_index = True)
+    combined_df = combined_df.astype(float)
     return combined_df
 
 if __name__ == "__main__":
