@@ -1,9 +1,9 @@
 import pandas as pd
-
+import os
 def merge_files(filex,filey):
     #Read files
-    x_df = pd.read_csv("./subject_001_01__x.csv")
-    y_df = pd.read_csv("./subject_001_01__y.csv")
+    x_df = pd.read_csv(filex)
+    y_df = pd.read_csv(filey)
 
     #Extract column integer values
     x_first = pd.DataFrame(x_df.columns).T
