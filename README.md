@@ -1,14 +1,5 @@
-                                  PROJECT_C4
 
-                               
-                                   TEAM-76
- 
-
-                            KRISHNA KOTARU(bkotaru)  
-                            GANESH THANU(gthanu)
-                            SHAUNAK PATEL(shpate25)
-
-The project aims to identify the terrain from time series data. There are a number of input and output files for multiple sessions of each subject. 
+The project aims to identify the terrain from time series data received from devices like accelerometer, gyroscopic readings, etc. There are a number of input and output files for multiple sessions of each subject. 
 
                                 Preprocessing
 
